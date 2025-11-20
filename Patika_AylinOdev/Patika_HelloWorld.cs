@@ -7,3 +7,6 @@ Console.WriteLine("Soyadınızı Giriniz:");
 string  surname = Console.ReadLine()!;
 
 Console.WriteLine("Merhaba" + " " + name + " " + surname);
+
+
+
