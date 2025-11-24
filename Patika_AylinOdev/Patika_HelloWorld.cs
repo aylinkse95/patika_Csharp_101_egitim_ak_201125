@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Patika_AylinOdev;
 using System;
+
+try { 
+
 Console.WriteLine("Hello, World!");
 Console.WriteLine("İsminizi Giriniz:");
 string  name = Console.ReadLine() ! ;
@@ -47,7 +50,11 @@ else
 {
     Console.WriteLine("yine bekleriz");
 }
-
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Bir hata oluştu: " + ex.Message);
+}
 
 
 
