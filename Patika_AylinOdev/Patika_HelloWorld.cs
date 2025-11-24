@@ -8,5 +8,16 @@ string  surname = Console.ReadLine()!;
 
 Console.WriteLine("Merhaba" + " " + name + " " + surname);
 
+int yas;
+
+Console.WriteLine("Lütfen yaşınızı girin:");
+string input = Console.ReadLine()!;
+if (int.TryParse(input, out yas))
+{ Console.WriteLine("Teşekkürler Yaşınız:" + yas);
+}
+else
+{
+    Console.WriteLine("Hatalı giriş!Lütfen sadece rakam giriniz.");
+}
 
 
